@@ -16,37 +16,44 @@ const songCard = [
   {
     uri: viper,
     name: 'The Viper',
-    artist: 'MI Abaga'
+    artist: 'MI Abaga',
+    favorite: false
   },
   {
     uri: viper,
     name: 'The Viper',
-    artist: 'MI Abaga'
+    artist: 'MI Abaga',
+    favorite: false
   },
   {
     uri: viper,
     name: 'The Viper',
-    artist: 'MI Abaga'
+    artist: 'MI Abaga',
+    favorite: false
   },
   {
     uri: viper,
     name: 'The Viper',
-    artist: 'MI Abaga'
+    artist: 'MI Abaga',
+    favorite: false
   },
   {
     uri: viper,
     name: 'The Viper',
-    artist: 'MI Abaga'
+    artist: 'MI Abaga',
+    favorite: true
   },
   {
     uri: viper,
     name: 'The Viper',
-    artist: 'MI Abaga'
+    artist: 'MI Abaga',
+    favorite: false
   },
   {
     uri: viper,
     name: 'The Viper',
-    artist: 'MI Abaga'
+    artist: 'MI Abaga',
+    favorite: false
   },
 ]
 
