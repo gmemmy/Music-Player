@@ -15,19 +15,38 @@ const playList = [
 const songCard = [
   {
     uri: viper,
-    name: 'CHILL OUT'
+    name: 'The Viper',
+    artist: 'MI Abaga'
   },
   {
     uri: viper,
-    name: 'CHILL OUT'
+    name: 'The Viper',
+    artist: 'MI Abaga'
   },
   {
     uri: viper,
-    name: 'CHILL OUT'
+    name: 'The Viper',
+    artist: 'MI Abaga'
   },
   {
     uri: viper,
-    name: 'CHILL OUT'
+    name: 'The Viper',
+    artist: 'MI Abaga'
+  },
+  {
+    uri: viper,
+    name: 'The Viper',
+    artist: 'MI Abaga'
+  },
+  {
+    uri: viper,
+    name: 'The Viper',
+    artist: 'MI Abaga'
+  },
+  {
+    uri: viper,
+    name: 'The Viper',
+    artist: 'MI Abaga'
   },
 ]
 

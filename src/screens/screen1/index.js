@@ -1,12 +1,13 @@
 import React from 'react';
 import { View, Text, ScrollView, FlatList,
-   TouchableOpacity } from 'react-native';
+   TouchableOpacity, SafeAreaView } from 'react-native';
 import styles from './styles';
 import { playList } from './constants'
 
 // Components
 import Header from '../../components/screen1/header/index'
-import SongScroll from '../../components/screen1/scrollSection/index'
+import PlayListScroll from '../../components/screen1/scrollSection/index'
+import SongList from '../../components/screen1/songList/index';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
         <Header />
       </View>
       <Text style={styles.title}>Browse</Text>
-      <View style={styles.playListContainer}>
+      <View>
         <FlatList
           data={playList}
           numColumns={3}
@@ -27,7 +28,10 @@ const Home = () => {
           keyExtractor={item => item.id} />
       </View>
       <View style={styles.scroll}>
-        <SongScroll />
+        <PlayListScroll />
+      </View>
+      <View style={styles.listContainer}>
+        <SongList />
       </View>
     </View>
   )

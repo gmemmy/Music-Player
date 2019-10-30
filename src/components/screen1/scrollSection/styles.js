@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   opacityView: {
     height: 60,
-    // borderRadius: 15,
+    borderBottomEndRadius: 20,
     backgroundColor: 'white',
     top: 180,
     opacity: 0.7,

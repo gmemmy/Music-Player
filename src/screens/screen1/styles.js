@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#FEFEFE'
   },
   header: {
@@ -13,9 +12,6 @@ const styles = StyleSheet.create({
     marginLeft: 40,
     fontSize: 40,
     color: '#4B5E72'
-  },
-  playListContainer: {
-    // flexDirection: 'row'
   },
   playList: {
     paddingLeft: 10,
@@ -30,10 +26,16 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   scroll: {
-    flex: 0.5,
     flexDirection: 'row',
     justifyContent: 'center',
-  }
+  },
+  playListHighLight: {
+    flex: 0.5,
+    backgroundColor: 'red'
+  },
+  listContainer: {
+    marginTop: 50,
+  },
 })
 
 export default styles;

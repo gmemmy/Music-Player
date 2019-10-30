@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react';
-import { View, Text, FlatList,
-   ImageBackground, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, ImageBackground, ScrollView,
+   TouchableOpacity } from 'react-native';
 import styles from './styles';
 import { songCard } from '../../../screens/screen1/constants'
 
-const SongScroll = () => {
+const PlayListScroll = () => {
   return (
-    <Fragment>
       <ScrollView horizontal='true' alwaysBounceHorizontal='true'
         showsHorizontalScrollIndicator='false'>
         {songCard.map(card => (
@@ -19,14 +18,7 @@ const SongScroll = () => {
           </TouchableOpacity>
         ))}
       </ScrollView>
-      {/* <FlatList
-        data={songCard}
-        numColumns={3}
-        renderItem={({ item }) => (
-        )}
-      /> */}
-    </Fragment>
   )
 }
 
-export default SongScroll;
+export default PlayListScroll;
