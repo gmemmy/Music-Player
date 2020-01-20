@@ -2,13 +2,16 @@ const viper = require('../../../assets/viper.jpg');
 
 const playList = [
   {
-    name: 'MOODS'
+    name: 'Overview'
   },
   {
-    name: 'ARTISTS'
+    name: 'Songs'
   },
   {
-    name: 'PODCASTS'
+    name: 'Albums'
+  },
+  {
+    name: 'Artists'
   }
 ]
 
@@ -57,4 +60,12 @@ const songCard = [
   },
 ]
 
-module.exports = { playList, songCard};
+const songData = [
+  {
+    plays: 243,
+    downloads: 243,
+    likes: 243
+  },
+]
+
+module.exports = { playList, songCard, songData };

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   searchIcon: {
-    marginLeft: 170,
+    marginLeft: 160,
     marginTop: 8,
     color: '#4B5E72',
   },

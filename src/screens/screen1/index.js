@@ -18,7 +18,7 @@ const Home = () => {
       <View>
         <FlatList
           data={playList}
-          numColumns={3}
+          numColumns={4}
           renderItem={({ item }) => (
             <TouchableOpacity style={styles.playList}>
               <Text style={styles.playListText}>{item.name}</Text>

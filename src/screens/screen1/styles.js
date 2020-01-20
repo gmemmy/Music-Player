@@ -15,20 +15,17 @@ const styles = StyleSheet.create({
     color: '#4B5E72'
   },
   playList: {
-    paddingLeft: 10,
-    justifyContent: 'center',
+    padding: 11,
     alignItems: 'center',
-    marginTop: 40,
-    marginLeft: 30
+    marginTop: 20,
+    marginLeft: 15
   },
   playListText: {
-    fontSize: 17,
+    fontSize: 16,
     color: '#232228',
-    fontWeight: 'bold'
   },
   scroll: {
-    flexDirection: 'row',
-    justifyContent: 'center',
+    marginTop: 30
   },
   playListHighLight: {
     flex: 0.5,
