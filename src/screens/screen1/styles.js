@@ -5,7 +5,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#FEFEFE'
   },
   header: {
-    flexDirection: 'row'
+    flexDirection: 'row',
+    marginTop: 60
   },
   title: {
     marginTop: 40,

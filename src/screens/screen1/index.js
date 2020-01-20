@@ -15,7 +15,6 @@ const Home = () => {
       <View style={styles.header}>
         <Header />
       </View>
-      <Text style={styles.title}>Browse</Text>
       <View>
         <FlatList
           data={playList}

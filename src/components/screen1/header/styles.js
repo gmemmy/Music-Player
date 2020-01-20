@@ -1,16 +1,21 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
+  headerContainer: {
+    backgroundColor: 'red',
+    alignItems: 'center'
+  },
   searchIcon: {
-    marginTop: 60,
-    marginLeft: 40,
+    marginLeft: 170,
+    marginTop: 8,
     color: '#4B5E72',
   },
-  threeDotsIcon: {
-    marginTop: 60,
-    marginLeft: 250,
-    color: '#232228',
-  }
+  title: {
+    marginLeft: 20,
+    fontSize: 35,
+    color: '#000',
+    fontWeight: 'bold'
+  },
 })
 
 export default styles;
