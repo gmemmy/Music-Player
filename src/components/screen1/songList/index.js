@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, TouchableOpacity, ScrollView, ImageBackground } from 'react-native';
 import styles from './styles';
 import { songCard } from '../../../screens/screen1/constants'
 
@@ -20,16 +20,12 @@ class SongList extends Component {
   render() {
     return (
       <Fragment>
-        <Text style={styles.listTitle}>PLAYLISTS</Text>
+        <Text style={styles.listTitle}>Top Songs</Text>
         <View>
         <ScrollView>
         {songCard.map(song => (
           <TouchableOpacity style={styles.itemContainer} key={songCard.indexOf(song)}>
-            <Ionicons
-              name='ios-disc'
-              size={40}
-              color='#166FD2'
-              style={styles.discIcon} />
+            <ImageBackground source={song.uri} style={styles.stockImg} />
             <View style={styles.songText}>
               <Text style={[styles.text, {fontWeight: 'bold'}]}>
                 {song.name}

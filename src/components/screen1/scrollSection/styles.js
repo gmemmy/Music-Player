@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
     borderRadius: 20,
     resizeMode: 'contain',
-    overflow: 'hidden'
+    overflow: 'hidden',
   },
   card: {
     paddingLeft: 20,

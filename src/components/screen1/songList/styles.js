@@ -10,18 +10,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   listTitle: {
-    marginLeft: 40,
-    fontSize: 20,
-    color: '#4B5E72',
+    marginLeft: 20,
+    fontSize: 25,
+    color: '#000',
     fontWeight: 'bold'
-  },
-  discIcon: {
-    marginLeft: 40,
-    marginTop: 20
   },
   favoriteIcon: {
     marginLeft: 20,
-    marginTop: 20
+    marginTop: 10
   },
   songText: {
     marginLeft: 20,
@@ -31,10 +27,19 @@ const styles = StyleSheet.create({
     color: '#4B5E72',
   },
   songTime: {
-    marginLeft: 80,
-    marginTop: 20,
+    marginLeft: 125,
+    marginTop: 10,
     color: '#4B5E72'
-  }
+  },
+  stockImg: {
+    height: 50,
+    width: 50,
+    marginLeft: 20,
+    marginTop: 20,
+    borderRadius: 15,
+    resizeMode: 'contain',
+    overflow: 'hidden',
+  },
 })
 
 export default styles;
